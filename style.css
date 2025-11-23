@@ -1,0 +1,35 @@
+.holder {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.item:nth-child(1) {
+    order: -5;
+    background-color: orange;
+    flex-basis: calc((100% - 20px) / 2);
+}
+
+.item:nth-child(2) {
+    order: -1;
+    background-color: blue;
+    flex-basis: calc((100% - 33px) / 3);
+}
+
+.item:nth-child(3) {
+    order: -3;
+    background-color: purple;
+    flex-basis: calc((100% - 33px) / 3);
+}
+
+.item:nth-child(4) {
+    order: -2;
+    background-color: green;
+    flex-basis: calc((100% - 33px) / 3);
+}
+
+.item:nth-child(5) {
+    order: -4;
+    background-color: yellow;
+    flex-basis: calc((100% - 20px) / 2);
+}

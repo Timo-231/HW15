@@ -20,7 +20,7 @@
 .item:nth-child(2) {
     order: -1;
     background-color: blue;
-    flex-basis: calc(100%/ 3);
+    flex-basis: calc(100% / 3);
 }
 
 .item:nth-child(3) {
